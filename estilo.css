@@ -1,0 +1,131 @@
+*{
+    margin: 20px;
+    margin-bottom: 20px;
+    
+}
+body{
+        background-color: rgba(223, 233, 229, 0.492);
+        background-image:url(imagens/sw.png);
+        background-repeat: no-repeat;
+        background-size:8%;
+        background-position-x: 98%;
+        background-position-y: 98%;
+        background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color:rgb(29, 29, 29);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+}   
+
+p{
+    font-size: 22px;
+    font-style: italic;
+    text-align: justify;
+    color:rgb(105, 105, 105);
+    padding: 5px;
+}
+
+h4, h3{
+    color: rgb(63, 63, 63);
+}
+
+button{
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    width: 330px;
+    height: 35px;
+}
+button:hover{
+    color: white;
+}
+
+.mensagem{
+    color: rgb(236, 0, 0);
+    background-color:rgb(253, 196, 205);
+    font-weight: bold;
+    font-size: 18px;
+    border-color:rgb(213, 213, 213);
+    text-align: center;
+}
+
+.img1{
+    opacity: 70%;
+    border-radius:6px;
+    border-style: groove;
+    border-right-color:  rgb(63, 63, 63);
+    width: 250px;
+    height: 250px;
+    background-color:rgb(212, 200, 200);
+}
+
+ul{
+    font-weight:bold;
+    position: absolute;
+    margin-left: 280px;
+    padding: 45px;
+}
+
+li{
+    color: rgb(63, 63, 63);
+}
+
+li:hover{
+    color: white;
+    background-color: black;
+
+}
+
+table{
+    color: rgb(63, 63, 63,);
+    border: 10%;
+    border-style:groove;
+    border-style: double;
+    text-align: center; 
+    width: 400px;
+    padding: 2px;
+    
+}
+
+img{
+    width: 100px;
+    height: 65px;
+    border-width: 5px;
+    border-radius:  8%;
+    border-style: double;
+    border-color: rgb(176, 176, 176);
+}
+.pais:hover{
+    
+    color:rgb(67, 1, 51);
+    font-weight: bold;
+    background-image: url("imagens/cp1.jpeg");
+    background-size: cover;
+}
+.pais2:hover{
+    color:rgb(126, 0, 97);
+    font-weight: bold;
+    background-image: url("imagens/cp2.jpeg");
+    background-size: cover;
+}
+.pais3:hover{
+    color:rgb(126, 0, 97);
+    font-weight: bold;
+    background-image: url("imagens/cp3.jpeg");
+    background-size: cover;
+}
+
+a{
+    text-align:center;
+    color:rgb(249, 11, 11);
+    font-weight: bold;
+}
+
+a:hover{
+    font-size: 25px;
+    font-weight: bold; 
+    color:rgb(208, 0, 94)
+}
